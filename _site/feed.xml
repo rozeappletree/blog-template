@@ -3,10 +3,10 @@
   <channel>
     <title>生命不止，折腾不息</title>
     <description>生命不止，折腾不息</description>
-    <link>https://dongyadoit.com/</link>
-    <atom:link href="https://dongyadoit.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 19 Dec 2021 22:30:39 +0800</pubDate>
-    <lastBuildDate>Sun, 19 Dec 2021 22:30:39 +0800</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 18 Nov 2025 05:21:22 +0530</pubDate>
+    <lastBuildDate>Tue, 18 Nov 2025 05:21:22 +0530</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
@@ -47,8 +47,8 @@ Cross-Origin-Opener-Policy: same-origin
      callback({
          responseHeaders: {
              ...details.responseHeaders,
-             'Cross-Origin-Opener-Policy': 'same-origin',
-             'Cross-Origin-Embedder-Policy': 'require-corp',
+             &apos;Cross-Origin-Opener-Policy&apos;: &apos;same-origin&apos;,
+             &apos;Cross-Origin-Embedder-Policy&apos;: &apos;require-corp&apos;,
          },
      });
  });
@@ -58,9 +58,9 @@ Cross-Origin-Opener-Policy: same-origin
 基于此，app 不需要内嵌一个 web 服务器，本地文件也可以使用SharedArrayBuffer 的功能，速度也得到很大的提升。&lt;/li&gt;
 &lt;/ol&gt;
 </description>
-        <pubDate>Sun, 12 Dec 2021 00:00:00 +0800</pubDate>
-        <link>https://dongyadoit.com/webassembly/2021/12/12/use-webassembly-in-electron/</link>
-        <guid isPermaLink="true">https://dongyadoit.com/webassembly/2021/12/12/use-webassembly-in-electron/</guid>
+        <pubDate>Sun, 12 Dec 2021 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/webassembly/2021/12/12/use-webassembly-in-electron/</link>
+        <guid isPermaLink="true">http://localhost:4000/webassembly/2021/12/12/use-webassembly-in-electron/</guid>
         
         <category>webassembly</category>
         
@@ -153,9 +153,9 @@ https://www.giantbranch.cn/2018/01/09/%E8%85%BE%E8%AE%AF%E7%8E%84%E6%AD%A6%E5%AE
   &lt;li&gt;https://www.cnblogs.com/Shepherdzhao/p/8253421.html&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Sun, 19 Sep 2021 00:00:00 +0800</pubDate>
-        <link>https://dongyadoit.com/webassembly/2021/09/19/use-shared-array-buffer-and-used-in-cors-copy/</link>
-        <guid isPermaLink="true">https://dongyadoit.com/webassembly/2021/09/19/use-shared-array-buffer-and-used-in-cors-copy/</guid>
+        <pubDate>Sun, 19 Sep 2021 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/webassembly/2021/09/19/use-shared-array-buffer-and-used-in-cors-copy/</link>
+        <guid isPermaLink="true">http://localhost:4000/webassembly/2021/09/19/use-shared-array-buffer-and-used-in-cors-copy/</guid>
         
         <category>webassembly</category>
         
@@ -185,7 +185,7 @@ EM_ASM_DOUBLE
 &lt;p&gt;类似的使用方式 :&lt;/p&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;EM_ASM_({
-            postMessage({cmd: 'callback', text: &quot;callback&quot;, threadId: $2, callId : $0, code : $1})
+            postMessage({cmd: &apos;callback&apos;, text: &quot;callback&quot;, threadId: $2, callId : $0, code : $1})
         }, callback, code, tid);
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
@@ -240,9 +240,9 @@ MAIN_THREAD_ASYNC_EM_ASM
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;在回调函数中,通过 UTF8ToString 函数把传递过去的指针转成 js 的字符串, 这样来达到传递字符串的目的.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 31 Jan 2021 00:00:00 +0800</pubDate>
-        <link>https://dongyadoit.com/webassembly/2021/01/31/implement-callback-in-webassembly/</link>
-        <guid isPermaLink="true">https://dongyadoit.com/webassembly/2021/01/31/implement-callback-in-webassembly/</guid>
+        <pubDate>Sun, 31 Jan 2021 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/webassembly/2021/01/31/implement-callback-in-webassembly/</link>
+        <guid isPermaLink="true">http://localhost:4000/webassembly/2021/01/31/implement-callback-in-webassembly/</guid>
         
         <category>webassembly</category>
         
@@ -303,9 +303,9 @@ MAIN_THREAD_ASYNC_EM_ASM
 
 &lt;p&gt;随着各大浏览器对 wasm 的完善， wasm 能支持的功能会更多。比如 gc, 更好的异常处理,届时能实现更高效和全面的功能。&lt;/p&gt;
 </description>
-        <pubDate>Sun, 29 Nov 2020 00:00:00 +0800</pubDate>
-        <link>https://dongyadoit.com/webassembly/2020/11/29/use-webassembly-render-video/</link>
-        <guid isPermaLink="true">https://dongyadoit.com/webassembly/2020/11/29/use-webassembly-render-video/</guid>
+        <pubDate>Sun, 29 Nov 2020 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/webassembly/2020/11/29/use-webassembly-render-video/</link>
+        <guid isPermaLink="true">http://localhost:4000/webassembly/2020/11/29/use-webassembly-render-video/</guid>
         
         <category>webassembly</category>
         
@@ -381,7 +381,7 @@ MAIN_THREAD_ASYNC_EM_ASM
    o  Using the directories specified in the DT_RUNPATH dynamic section
       attribute of the binary if present.  Such directories are searched
       only to find those objects required by DT_NEEDED (direct
-      dependencies) entries and do not apply to those objects' children,
+      dependencies) entries and do not apply to those objects&apos; children,
       which must themselves have their own DT_RUNPATH entries.  This is
       unlike DT_RPATH, which is applied to searches for all children in
       the dependency tree.
@@ -474,9 +474,9 @@ $ ldd -r libSXVideoEngine.so
 SXVideoEngine::Public::License::SetLicense(char const*)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
-        <pubDate>Sun, 24 May 2020 00:00:00 +0800</pubDate>
-        <link>https://dongyadoit.com/linux/2020/05/24/how-to-solve-undefined-symbol-when-link-dynamic-lib-on-linux/</link>
-        <guid isPermaLink="true">https://dongyadoit.com/linux/2020/05/24/how-to-solve-undefined-symbol-when-link-dynamic-lib-on-linux/</guid>
+        <pubDate>Sun, 24 May 2020 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/linux/2020/05/24/how-to-solve-undefined-symbol-when-link-dynamic-lib-on-linux/</link>
+        <guid isPermaLink="true">http://localhost:4000/linux/2020/05/24/how-to-solve-undefined-symbol-when-link-dynamic-lib-on-linux/</guid>
         
         <category>linux</category>
         
@@ -536,9 +536,9 @@ av_log_set_level(AV_LOG_DEBUG);
 
 &lt;p&gt;编译出来的库，就可以使用 gdb 跟踪具体在 ffmpeg 中的哪一步出错，能快速定位问题。&lt;/p&gt;
 </description>
-        <pubDate>Sun, 24 May 2020 00:00:00 +0800</pubDate>
-        <link>https://dongyadoit.com/ffmpeg/2020/05/24/how-to-debug-ffmpeg-effectively/</link>
-        <guid isPermaLink="true">https://dongyadoit.com/ffmpeg/2020/05/24/how-to-debug-ffmpeg-effectively/</guid>
+        <pubDate>Sun, 24 May 2020 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/ffmpeg/2020/05/24/how-to-debug-ffmpeg-effectively/</link>
+        <guid isPermaLink="true">http://localhost:4000/ffmpeg/2020/05/24/how-to-debug-ffmpeg-effectively/</guid>
         
         <category>ffmpeg</category>
         
@@ -690,9 +690,9 @@ sudo ./cuda_10.2.89_440.33.01_linux.run
 01:00.1 Audio device: NVIDIA Corporation Device 10fa (rev a1)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
-        <pubDate>Wed, 13 May 2020 00:00:00 +0800</pubDate>
-        <link>https://dongyadoit.com/linux/video/audio%20tech/2020/05/13/centos-install-nvidia-driver-and-opengl/</link>
-        <guid isPermaLink="true">https://dongyadoit.com/linux/video/audio%20tech/2020/05/13/centos-install-nvidia-driver-and-opengl/</guid>
+        <pubDate>Wed, 13 May 2020 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/linux/video/audio%20tech/2020/05/13/centos-install-nvidia-driver-and-opengl/</link>
+        <guid isPermaLink="true">http://localhost:4000/linux/video/audio%20tech/2020/05/13/centos-install-nvidia-driver-and-opengl/</guid>
         
         <category>nvidia</category>
         
@@ -862,9 +862,9 @@ sudo ./cuda_10.2.89_440.33.01_linux.run
   &lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Mon, 11 May 2020 00:00:00 +0800</pubDate>
-        <link>https://dongyadoit.com/ffmpeg/video/audio%20tech/2020/05/11/compile-ffmpeg-dynamic-libary-on-macos/</link>
-        <guid isPermaLink="true">https://dongyadoit.com/ffmpeg/video/audio%20tech/2020/05/11/compile-ffmpeg-dynamic-libary-on-macos/</guid>
+        <pubDate>Mon, 11 May 2020 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/ffmpeg/video/audio%20tech/2020/05/11/compile-ffmpeg-dynamic-libary-on-macos/</link>
+        <guid isPermaLink="true">http://localhost:4000/ffmpeg/video/audio%20tech/2020/05/11/compile-ffmpeg-dynamic-libary-on-macos/</guid>
         
         <category>macos</category>
         
@@ -1107,9 +1107,9 @@ make &amp;amp;&amp;amp;  make install
   &lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Mon, 11 May 2020 00:00:00 +0800</pubDate>
-        <link>https://dongyadoit.com/ffmpeg/video/audio%20tech/2020/05/11/compile-ffmpeg-dynamic-libary-on-centos/</link>
-        <guid isPermaLink="true">https://dongyadoit.com/ffmpeg/video/audio%20tech/2020/05/11/compile-ffmpeg-dynamic-libary-on-centos/</guid>
+        <pubDate>Mon, 11 May 2020 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/ffmpeg/video/audio%20tech/2020/05/11/compile-ffmpeg-dynamic-libary-on-centos/</link>
+        <guid isPermaLink="true">http://localhost:4000/ffmpeg/video/audio%20tech/2020/05/11/compile-ffmpeg-dynamic-libary-on-centos/</guid>
         
         <category>linux</category>
         
@@ -1211,9 +1211,9 @@ update-alternatives --set php-config /usr/bin/php-config7.0
 
 &lt;p&gt;设置完以上步骤后，就可以按文章开头的步骤编译安装 php7.0或其他 php 版本的扩展了。&lt;/p&gt;
 </description>
-        <pubDate>Sun, 16 Feb 2020 00:00:00 +0800</pubDate>
-        <link>https://dongyadoit.com/php/linux/2020/02/16/comiple-php-extension-of-different-php-version-on-a-linux-machine/</link>
-        <guid isPermaLink="true">https://dongyadoit.com/php/linux/2020/02/16/comiple-php-extension-of-different-php-version-on-a-linux-machine/</guid>
+        <pubDate>Sun, 16 Feb 2020 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/php/linux/2020/02/16/comiple-php-extension-of-different-php-version-on-a-linux-machine/</link>
+        <guid isPermaLink="true">http://localhost:4000/php/linux/2020/02/16/comiple-php-extension-of-different-php-version-on-a-linux-machine/</guid>
         
         <category>php</category>
         
