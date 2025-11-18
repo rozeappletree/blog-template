@@ -1,13 +1,13 @@
 # Site settings
-title: 生命不止，折腾不息
-author: MonsterSlayer
+title: asra.dev
+author: "RoseAppleTree"
 author_avatar: /images/header.jpg
 email: alias@domain.tld
-description: 生命不止，折腾不息 
+description: some desc here
 url: "https://dongyadoit.com"
 domain: "http://dongyadoit.com"
-github_username: dongyado
-github_site_repo: dongyado/dongyado.github.io
+github_username: rozeappletree
+github_site_repo: rozeappletree/blog-template
 disqus: blog-template-3
 
 

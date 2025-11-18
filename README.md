@@ -31,8 +31,6 @@ This blog is built with Jekyll. To run it locally:
 
 ---
 
-credits: https://github.com/dongyado/dongyado.github.io
-
 ## Setup Disqus
 
 - Goto disqus.com and "Install on site", redirects to https://disqus.com/admin/create/
@@ -40,3 +38,7 @@ credits: https://github.com/dongyado/dongyado.github.io
 - "Website name" will be your `site.disqus` config value. 
 
     > Note that if name is already taken, some suffix will be added. Eg. `blog-template` became `blog-template-3` in our case. The entire link is https://blog-template-3.disqus.com/admin/ which is used in [disqus.html](_includes/disqus.html)
+
+---
+
+credits: https://github.com/dongyado/dongyado.github.io
