@@ -5,14 +5,16 @@ permalink: /links/
 comments: false
 author_footer: false
 ---
-## 知识库
-* [mindhacks][] - 不可思议的博客(涉及心理学，数学，计算机等各个领域)
 
-## 博客 
-* [狮子的魂][] - 领我入坑的大神，标杆
-* [forsigner][] - 设计出身，node.js粉丝，前端牛人
+## Topic 1
+
+* [link 1][] - Link description
+
+## Topic 2
+* [link 2][] - Description here 
+* [link 3][] - Description here
 
 
-[mindhacks]: http://mindhacks.cn
-[狮子的魂]: http://my.oschina.net/jcseg/blog/
-[forsigner]: http://forsigner.com/
+[link 1]: https://google.com
+[link 2]: https://google.com
+[link 3]: https://google.com
